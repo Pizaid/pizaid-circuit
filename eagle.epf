@@ -1,0 +1,28 @@
+[Eagle]
+Version="06 05 00"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Users/suzukihajime/docs/elec/PCBFiles/eagle/lbr/Diode.lbr"
+UsedLibrary="/Users/suzukihajime/docs/elec/PCBFiles/eagle/lbr/con-jst.lbr"
+UsedLibrary="/Users/suzukihajime/docs/elec/PCBFiles/eagle/lbr/led.lbr"
+UsedLibrary="/Users/suzukihajime/docs/elec/PCBFiles/eagle/lbr/rcl.lbr"
+UsedLibrary="/Users/suzukihajime/docs/elec/PCBFiles/eagle/lbr/supply1.lbr"
+UsedLibrary="/Users/suzukihajime/docs/elec/PCBFiles/eagle/tail/tail.lbr"
+UsedLibrary="/Users/suzukihajime/docs/elec/PCBFiles/eagle/cont/cont.lbr"
+UsedLibrary="pizaid.lbr"
+UsedLibrary="RaspberryPi.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="29 60 1439 895"
+State=1
+Number=0
+
+[Desktop]
+Screen="1440 900"
+Window="Win_1"
