@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -9394,7 +9394,7 @@ DC&amp;#12472;&amp;#12515;&amp;#12483;&amp;#12463;&amp;#12289;&amp;#22522;&amp;#
 <part name="R9" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R10" library="rcl" deviceset="R-US_" device="R0603" value="330"/>
 <part name="X1" library="con-jst" deviceset="?4B-ZR" device="S"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="R0603"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="U$8" library="pizaid" deviceset="B2P-VH" device=""/>
 <part name="U$9" library="pizaid" deviceset="B2P-VH" device=""/>
