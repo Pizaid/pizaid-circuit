@@ -8235,19 +8235,19 @@ Source: http://www.jst.com .. eZH.pdf</description>
 </classes>
 <parts>
 <part name="U$1" library="pizaid" deviceset="LT1512" device="CS8"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C3225"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C3216"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="2.2k"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="0204/7" value="0.2"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="24"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C3225" value="22u"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C3216" value="2.2u"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C3225" value="22u"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="L1" library="rcl" deviceset="L-US" device="L5650M"/>
-<part name="L2" library="rcl" deviceset="L-US" device="L5650M"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="0.22u"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="L1" library="rcl" deviceset="L-US" device="L5650M" value="33u"/>
+<part name="L2" library="rcl" deviceset="L-US" device="L5650M" value="33u"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -8265,22 +8265,22 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="U$6" library="pizaid" deviceset="OKL-T/6" device=""/>
 <part name="U$7" library="pizaid" deviceset="OKL-T/6" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C3225"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C3225"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C3225"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C3225"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C3225" value="22u25V"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C3225" value="22u16V"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C3225" value="22u25V"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C3225" value="22u16V"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0603"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="330"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="R9" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R0603"/>
+<part name="R9" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="R0603" value="330"/>
 <part name="X1" library="con-jst" deviceset="?4B-ZR" device="S"/>
 <part name="R11" library="rcl" deviceset="R-US_" device="R0603"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
@@ -8303,18 +8303,24 @@ Source: http://www.jst.com .. eZH.pdf</description>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="R12" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R0603"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
-<part name="R14" library="rcl" deviceset="R-US_" device="R0603"/>
-<part name="R15" library="rcl" deviceset="R-US_" device="R0603"/>
+<part name="R14" library="rcl" deviceset="R-US_" device="R0603" value="2.2k"/>
+<part name="R15" library="rcl" deviceset="R-US_" device="R0603" value="2.2k"/>
 <part name="PCB1" library="pizaid" deviceset="RASPBERRY_PI_B+" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="374.65" y="-102.87" size="1.778" layer="97">Vcc</text>
+<text x="374.65" y="-105.41" size="1.778" layer="97">+3.3V</text>
+<text x="374.65" y="-107.95" size="1.778" layer="97">GND</text>
+<text x="374.65" y="-113.03" size="1.778" layer="97">SCL</text>
+<text x="374.65" y="-110.49" size="1.778" layer="97">SDA</text>
+<text x="374.65" y="-120.65" size="1.778" layer="97">GPIOs</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="87.63" y="57.15"/>

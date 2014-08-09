@@ -1763,19 +1763,19 @@ design rules under a new name.
 </autorouter>
 <elements>
 <element name="U$1" library="pizaid" package="SOP8" value="LT1512CS8" x="72.945" y="41.4075" rot="R90"/>
-<element name="R1" library="rcl" package="R0603" value="" x="82.7225" y="44.825"/>
-<element name="R2" library="rcl" package="R0603" value="" x="82.7225" y="47.5975" rot="R180"/>
-<element name="R3" library="rcl" package="R0603" value="" x="82.7225" y="50.37"/>
-<element name="R4" library="rcl" package="0204/7" value="" x="69.77" y="49.6625" rot="R180"/>
-<element name="R5" library="rcl" package="R0603" value="" x="78.66" y="50.2375"/>
-<element name="R6" library="rcl" package="R0603" value="" x="78.66" y="36.58" rot="R180"/>
-<element name="C1" library="rcl" package="C3225" value="" x="71.675" y="35.0575"/>
-<element name="C2" library="rcl" package="C3216" value="" x="62.785" y="38.2325" rot="R180"/>
+<element name="R1" library="rcl" package="R0603" value="100k" x="82.7225" y="44.825"/>
+<element name="R2" library="rcl" package="R0603" value="10k" x="82.7225" y="47.5975" rot="R180"/>
+<element name="R3" library="rcl" package="R0603" value="2.2k" x="82.7225" y="50.37"/>
+<element name="R4" library="rcl" package="0204/7" value="0.2" x="69.77" y="49.6625" rot="R180"/>
+<element name="R5" library="rcl" package="R0603" value="24" x="78.66" y="50.2375"/>
+<element name="R6" library="rcl" package="R0603" value="1k" x="78.66" y="36.58" rot="R180"/>
+<element name="C1" library="rcl" package="C3225" value="22u" x="71.675" y="35.0575"/>
+<element name="C2" library="rcl" package="C3216" value="2.2u" x="62.785" y="38.2325" rot="R180"/>
 <element name="C3" library="rcl" package="C3225" value="22u" x="71.675" y="46.4875"/>
-<element name="C4" library="rcl" package="C0603" value="" x="78.66" y="47.6975" rot="R180"/>
-<element name="C5" library="rcl" package="C0603" value="" x="78.66" y="38.7275"/>
-<element name="L1" library="rcl" package="L5650M" value="" x="65.96" y="43.9475" rot="R270"/>
-<element name="L2" library="rcl" package="L5650M" value="" x="59.61" y="43.9475" rot="R90"/>
+<element name="C4" library="rcl" package="C0603" value="0.22u" x="78.66" y="47.6975" rot="R180"/>
+<element name="C5" library="rcl" package="C0603" value="0.1u" x="78.66" y="38.7275"/>
+<element name="L1" library="rcl" package="L5650M" value="33u" x="65.96" y="43.9475" rot="R270"/>
+<element name="L2" library="rcl" package="L5650M" value="33u" x="59.61" y="43.9475" rot="R90"/>
 <element name="U$2" library="pizaid" package="SOD-123FL" value="SS2040FL" x="62.785" y="35.0575" rot="R180"/>
 <element name="J1" library="pizaid" package="SPC4077" value="" x="14.2425" y="51.175">
 <attribute name="OC_NEWARK" value="unknown" x="14.2425" y="51.175" size="1.778" layer="27" display="off"/>
@@ -1787,14 +1787,14 @@ design rules under a new name.
 <element name="U$5" library="pizaid" package="POWERDI5" value="SBR15U50" x="54.8075" y="26.1125" rot="R180"/>
 <element name="U$6" library="pizaid" package="OKL-T/6" value="OKL-T/6" x="40.9425" y="42.585" rot="R180"/>
 <element name="U$7" library="pizaid" package="OKL-T/6" value="OKL-T/6" x="40.9425" y="19.725" rot="R180"/>
-<element name="C6" library="rcl" package="C3225" value="" x="42.8475" y="33.06" rot="R180"/>
-<element name="C7" library="rcl" package="C3225" value="" x="37.1325" y="33.06"/>
-<element name="C8" library="rcl" package="C3225" value="" x="42.8475" y="10.2" rot="R180"/>
-<element name="C9" library="rcl" package="C3225" value="" x="37.1325" y="10.2"/>
-<element name="R7" library="rcl" package="R0603" value="" x="30.7825" y="41.6675" rot="R180"/>
-<element name="R8" library="rcl" package="R0603" value="" x="30.7825" y="44.2075"/>
-<element name="R9" library="rcl" package="R0603" value="" x="30.7825" y="24.17" rot="R180"/>
-<element name="R10" library="rcl" package="R0603" value="" x="30.7825" y="26.71"/>
+<element name="C6" library="rcl" package="C3225" value="22u25V" x="42.8475" y="33.06" rot="R180"/>
+<element name="C7" library="rcl" package="C3225" value="22u16V" x="37.1325" y="33.06"/>
+<element name="C8" library="rcl" package="C3225" value="22u25V" x="42.8475" y="10.2" rot="R180"/>
+<element name="C9" library="rcl" package="C3225" value="22u16V" x="37.1325" y="10.2"/>
+<element name="R7" library="rcl" package="R0603" value="1k" x="30.7825" y="41.6675" rot="R180"/>
+<element name="R8" library="rcl" package="R0603" value="330" x="30.7825" y="44.2075"/>
+<element name="R9" library="rcl" package="R0603" value="1k" x="30.7825" y="24.17" rot="R180"/>
+<element name="R10" library="rcl" package="R0603" value="330" x="30.7825" y="26.71"/>
 <element name="X1" library="con-jst" package="S4B-ZR" value="S4B-ZR" x="40.225" y="52.3425" rot="MR180">
 <attribute name="OC_NEWARK" value="38K8076" x="40.225" y="52.3425" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="S4B-ZR(LF)(SN)" x="40.225" y="52.3425" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1809,12 +1809,12 @@ design rules under a new name.
 <element name="U$14" library="pizaid" package="B2P-VH" value="B2P-VH" x="16.5625" y="19.6875" rot="R270"/>
 <element name="U$15" library="pizaid" package="B2P-VH" value="B2P-VH" x="16.5625" y="39.0625" rot="R270"/>
 <element name="U$16" library="pizaid" package="SOT-23" value="MCP3021" x="76.5625" y="14.0625" rot="R90"/>
-<element name="C10" library="rcl" package="C0603" value="" x="80" y="13.75" rot="R90"/>
-<element name="C11" library="rcl" package="C0603" value="" x="68.75" y="30.9375"/>
-<element name="R12" library="rcl" package="R0603" value="" x="68.75" y="28.5" rot="R180"/>
-<element name="R13" library="rcl" package="R0603" value="" x="65.3125" y="28.5" rot="R180"/>
-<element name="R14" library="rcl" package="R0603" value="" x="85.3125" y="35.3125" rot="R90"/>
-<element name="R15" library="rcl" package="R0603" value="" x="83.125" y="35.3125" rot="R90"/>
+<element name="C10" library="rcl" package="C0603" value="0.1u" x="80" y="13.75" rot="R90"/>
+<element name="C11" library="rcl" package="C0603" value="0.1u" x="68.75" y="30.9375"/>
+<element name="R12" library="rcl" package="R0603" value="10k" x="68.75" y="28.5" rot="R180"/>
+<element name="R13" library="rcl" package="R0603" value="10k" x="65.3125" y="28.5" rot="R180"/>
+<element name="R14" library="rcl" package="R0603" value="2.2k" x="85.3125" y="35.3125" rot="R90"/>
+<element name="R15" library="rcl" package="R0603" value="2.2k" x="83.125" y="35.3125" rot="R90"/>
 <element name="PCB1" library="pizaid" package="RASPBERRY_PI_B+" value="RASPBERRY_PI_B+" x="88.4375" y="59.375" rot="R180"/>
 </elements>
 <signals>
