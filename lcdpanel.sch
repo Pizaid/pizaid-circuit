@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -3006,7 +3006,7 @@ DC&amp;#12472;&amp;#12515;&amp;#12483;&amp;#12463;&amp;#12289;&amp;#22522;&amp;#
 <instance part="R13" gate="G$1" x="124.46" y="-12.7" rot="R270"/>
 <instance part="SUPPLY7" gate="GND" x="12.7" y="-40.64"/>
 <instance part="U$12" gate="G$1" x="86.36" y="48.26" rot="MR90"/>
-<instance part="PCB1" gate="G$1" x="-20.32" y="50.8"/>
+<instance part="PCB1" gate="G$1" x="-55.88" y="43.18"/>
 <instance part="U$13" gate="G$1" x="43.18" y="43.18"/>
 <instance part="GND1" gate="1" x="63.5" y="15.24"/>
 <instance part="GND2" gate="1" x="20.32" y="15.24"/>
@@ -3204,57 +3204,45 @@ DC&amp;#12472;&amp;#12515;&amp;#12483;&amp;#12463;&amp;#12289;&amp;#22522;&amp;#
 </net>
 <net name="R_BUTTON" class="0">
 <segment>
+<wire x1="0" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<label x="12.7" y="27.94" size="1.778" layer="95"/>
+<wire x1="0" y1="27.94" x2="0" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="0" y1="7.62" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="7.62" x2="50.8" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="SW3" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="-33.02" x2="43.18" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="-33.02" x2="45.72" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="43.18" y="-33.02"/>
-<label x="45.72" y="-33.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="12.7" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
-<label x="12.7" y="27.94" size="1.778" layer="95"/>
+<label x="50.8" y="-33.02" size="1.778" layer="95"/>
+<wire x1="50.8" y1="-33.02" x2="43.18" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D_BUTTON" class="0">
 <segment>
-<wire x1="12.7" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
 <label x="12.7" y="33.02" size="1.778" layer="95"/>
-</segment>
-<segment>
+<wire x1="30.48" y1="33.02" x2="-20.32" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="33.02" x2="-20.32" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="SW4" gate="G$1" pin="4"/>
 <wire x1="27.94" y1="-50.8" x2="33.02" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="-50.8" x2="35.56" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="33.02" y="-50.8"/>
 <label x="35.56" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="L_BUTTON" class="0">
-<segment>
-<pinref part="SW2" gate="G$1" pin="4"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<junction x="0" y="-22.86"/>
-<label x="-12.7" y="-25.4" size="1.778" layer="95"/>
-<wire x1="-2.54" y1="-22.86" x2="-12.7" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="-2.54" y="-22.86"/>
-<wire x1="0" y1="-22.86" x2="-2.54" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="12.7" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
-<label x="12.7" y="35.56" size="1.778" layer="95"/>
+<wire x1="-20.32" y1="-55.88" x2="35.56" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-55.88" x2="35.56" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="U_BUTTON" class="0">
 <segment>
 <pinref part="SW1" gate="G$1" pin="3"/>
-<wire x1="27.94" y1="-10.16" x2="33.02" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <junction x="27.94" y="-10.16"/>
 <label x="30.48" y="-10.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="12.7" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-10.16" x2="33.02" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-10.16" x2="33.02" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="5.08" x2="-2.54" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <label x="12.7" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3606,6 +3594,20 @@ DC&amp;#12472;&amp;#12515;&amp;#12483;&amp;#12463;&amp;#12289;&amp;#22522;&amp;#
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="38.1" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
 <junction x="215.9" y="38.1"/>
+</segment>
+</net>
+<net name="L_BUTTON" class="0">
+<segment>
+<label x="12.7" y="35.56" size="1.778" layer="95"/>
+<wire x1="30.48" y1="35.56" x2="-22.86" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="35.56" x2="-22.86" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="SW2" gate="G$1" pin="4"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<junction x="0" y="-22.86"/>
+<label x="-12.7" y="-25.4" size="1.778" layer="95"/>
+<junction x="-2.54" y="-22.86"/>
+<wire x1="0" y1="-22.86" x2="-2.54" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-22.86" x2="-2.54" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
