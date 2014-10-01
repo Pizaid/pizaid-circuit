@@ -6,22 +6,22 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -8097,7 +8097,7 @@ LBR by Tim R. 07-2014</description>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="2.2k"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="0204/7" value="0.2"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="0207/10" value="0.2"/>
 <part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="24"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C3225" value="22u"/>
@@ -8789,6 +8789,16 @@ LBR by Tim R. 07-2014</description>
 <wire x1="420.37" y1="54.61" x2="426.72" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="54.61" x2="426.72" y2="57.15" width="0.1524" layer="91"/>
 <junction x="426.72" y="57.15"/>
+<wire x1="328.93" y1="-130.81" x2="328.93" y2="-137.16" width="0.1524" layer="91"/>
+<junction x="328.93" y="-130.81"/>
+<pinref part="U$8" gate="G$1" pin="P$15"/>
+<wire x1="328.93" y1="-137.16" x2="328.93" y2="-163.83" width="0.1524" layer="91"/>
+<wire x1="328.93" y1="-163.83" x2="332.74" y2="-163.83" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="P$16"/>
+<wire x1="358.14" y1="-163.83" x2="361.95" y2="-163.83" width="0.1524" layer="91"/>
+<wire x1="361.95" y1="-163.83" x2="361.95" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="361.95" y1="-137.16" x2="328.93" y2="-137.16" width="0.1524" layer="91"/>
+<junction x="328.93" y="-137.16"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -8876,7 +8886,6 @@ LBR by Tim R. 07-2014</description>
 </net>
 <net name="B2" class="0">
 <segment>
-<wire x1="266.7" y1="-151.13" x2="254" y2="-151.13" width="0.1524" layer="91"/>
 <pinref part="PCB1" gate="G$1" pin="3V3@1"/>
 <wire x1="254" y1="-151.13" x2="248.92" y2="-151.13" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="-130.81" x2="260.35" y2="-130.81" width="0.1524" layer="91"/>
@@ -8899,8 +8908,10 @@ LBR by Tim R. 07-2014</description>
 <wire x1="254" y1="-130.81" x2="260.35" y2="-130.81" width="0.1524" layer="91"/>
 <junction x="260.35" y="-130.81"/>
 <wire x1="254" y1="-130.81" x2="254" y2="-151.13" width="0.1524" layer="91"/>
-<junction x="254" y="-151.13"/>
 <pinref part="U$9" gate="G$1" pin="VCC"/>
+<pinref part="PCB1" gate="G$1" pin="3V3@2"/>
+<wire x1="265.43" y1="-151.13" x2="254" y2="-151.13" width="0.1524" layer="91"/>
+<junction x="254" y="-151.13"/>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="P$6"/>
@@ -8909,11 +8920,12 @@ LBR by Tim R. 07-2014</description>
 </net>
 <net name="B3" class="0">
 <segment>
-<wire x1="266.7" y1="-153.67" x2="248.92" y2="-153.67" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$8" gate="G$1" pin="P$8"/>
 <wire x1="358.14" y1="-153.67" x2="372.11" y2="-153.67" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PCB1" gate="G$1" pin="GPIO10/MOSI"/>
+<wire x1="265.43" y1="-153.67" x2="248.92" y2="-153.67" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B4" class="0">
@@ -9000,12 +9012,6 @@ LBR by Tim R. 07-2014</description>
 <segment>
 <pinref part="U$8" gate="G$1" pin="P$14"/>
 <wire x1="358.14" y1="-161.29" x2="372.11" y2="-161.29" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="B7" class="0">
-<segment>
-<pinref part="U$8" gate="G$1" pin="P$16"/>
-<wire x1="358.14" y1="-163.83" x2="372.11" y2="-163.83" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GIRD" class="0">
